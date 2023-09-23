@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "segmentation-mlops"
+version = "0.0.1"
+description = ""
+authors = ["SAFUANlip <iusupov.se@phystech.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "2.0.0"
+numpy = ">=1.23.5"
+segmentation-models-pytorch = "^0.3.3"
+opencv-python = "4.5.5.64"
+opencv-python-headless = "4.7.0.72"
+matplotlib = ">=3.7.1"
+matplotlib-inline = ">=0.1.6"
+wandb = "0.15.10"
+torchinfo = "1.7.2"
+albumentations = "1.3.0"
+tqdm = "4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
